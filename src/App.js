@@ -1,7 +1,9 @@
+import Jsx from "./partOne/Jsx";
+
 export default function App(){
   return(
     <>
-    this is app
+    <Jsx />
     </>
   )
 }
