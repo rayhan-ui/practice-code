@@ -5,12 +5,14 @@ import MainContent from "./partOne/component/MainContent";
 import ConditionalRendering from "./partOne/ConditionalRendering.jsx";
 import Event from "./partOne/Event.jsx";
 import Jsx from "./partOne/Jsx";
+import ListNKeys from "./partOne/ListNKeys.jsx";
 import State from "./partOne/State.jsx";
 
 export default function App(){
   return(
     <>
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      <ListNKeys />
     </>
   )  
 }
