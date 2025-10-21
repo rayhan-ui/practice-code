@@ -7,12 +7,15 @@ import Event from "./partOne/Event.jsx";
 import Jsx from "./partOne/Jsx";
 import ListNKeys from "./partOne/ListNKeys.jsx";
 import State from "./partOne/State.jsx";
+import Count from "./partTwo/Count.jsx";
 
 export default function App(){
   return(
     <>
       {/* <ConditionalRendering /> */}
-      <ListNKeys />
+      {/* <ListNKeys /> */}
+      <Count/>
+
     </>
   )  
 }

@@ -15,9 +15,7 @@ export default function ListNKeys(){
          <ul>
             {generate.map((num, index)=><li key={index}> {num}</li>)}
          </ul>
-
          <button onClick={()=>{setGenerate(randomNumber())}}>regenerate</button>
-
         </>
   )
 }
