@@ -1,8 +1,4 @@
-import Card from "./partOne/Card";
-import Footer from "./partOne/component/Footer";
-import Header from "./partOne/component/Header";
-import MainContent from "./partOne/component/MainContent";
-import ConditionalRendering from "./partOne/ConditionalRendering.jsx";
+import React from "react";
 import Event from "./partOne/Event.jsx";
 import Jsx from "./partOne/Jsx";
 import ListNKeys from "./partOne/ListNKeys.jsx";
@@ -11,16 +7,17 @@ import Count from "./partTwo/Count.jsx";
 import Live from "./partTwo/UseRef.jsx";
 import UseEffect from "./partTwo/UseEffect.jsx";
 import UseRef from "./partTwo/UseRef.jsx";
+import UseContext from "./partTwo/UseContext.jsx";
 
 export default function App(){
   return(
     <>
     <div style={{ textAlign: "center", marginBottom: "40px", justifyContent: "center", }}>
-      {/* <ConditionalRendering /> */}
-      {/* <ListNKeys /> */}
-      {/* <Count/> */}
-      {/* <UseEffect /> */}
-      <UseRef />
+
+      <UseContext />
+
+
+
     </div>
 
     </>

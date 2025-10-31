@@ -6,6 +6,7 @@ export default function UseRef(){
   function handleClick(){
     inputRef.current.focus()
   }
+  
   return(
     <>
       <input 
