@@ -6,10 +6,12 @@ import Contact from "./partThree/Contacts.jsx";
 import Products from "./partThree/Products.jsx";
 import FetchAPI from "./partThree/FetchAPI.jsx";
 import LocalStorenSessionMng from "./partThree/LocalStorenSessionMng.jsx";
+import FormHandling from "./partThree/FormHandling.jsx";
 
 export default function App(){
   return(
     // <FetchAPI />
-    <LocalStorenSessionMng />
+    // <LocalStorenSessionMng />
+    <FormHandling />
   )  
 }
