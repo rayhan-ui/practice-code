@@ -34,7 +34,7 @@ export default function FormHandling(){
 
                 
 
-                {name==="" || email === "" ? <p>please fill all field</p> : 
+                {name==="" || email === "" ? <p style={{color: "#ff0000ff"}}>please fill all field</p> : 
                 <p>your name is: {name} <br /> your email is : {email}</p>  }
                 
             </form>

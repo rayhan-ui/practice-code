@@ -7,11 +7,14 @@ import Products from "./partThree/Products.jsx";
 import FetchAPI from "./partThree/FetchAPI.jsx";
 import LocalStorenSessionMng from "./partThree/LocalStorenSessionMng.jsx";
 import FormHandling from "./partThree/FormHandling.jsx";
+import LiftingStateUp from "./partThree/Parent.jsx";
+import Parent from "./partThree/Parent.jsx";
 
 export default function App(){
   return(
     // <FetchAPI />
     // <LocalStorenSessionMng />
-    <FormHandling />
+    // <FormHandling />
+    <Parent />
   )  
 }
